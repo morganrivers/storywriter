@@ -1,0 +1,81 @@
+### Intermission: The Science Behind Parts 1 & 2  
+*(Concepts: Shallow-Water Equations, Dispersion Relations, Filtering Sound Waves, Constant-Density Approximation)*  
+
+---
+
+#### **1. Shallow-Water Equations**  
+**What it is:**  
+A simplified model for fluid flow where horizontal scales far exceed vertical depth. Derived from the Navier-Stokes equations under the assumption that vertical acceleration is negligible (hydrostatic balance). Governed by:  
+\[
+\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} = -g \nabla \eta \quad \text{(momentum)}  
+\]  
+\[
+\frac{\partial \eta}{\partial t} + \nabla \cdot (H \mathbf{u}) = 0 \quad \text{(continuity)}  
+\]  
+Here, \( \mathbf{u} = (u,v) \) is horizontal velocity, \( \eta \) is surface displacement, \( H \) is mean layer depth, and \( g \) is gravity. These equations capture tsunami propagation, tidal bores, and equatorial waves.  
+
+**In the story:**  
+Kvothe uses the shallow-water equations to explain the anomalous wave speeds near the equator. The nonlinear advection terms \( (\mathbf{u} \cdot \nabla)\mathbf{u} \) allow self-reinforcing currents, explaining why the waves outpace linear predictions. His realization that the waves are eigenmodes (standing solutions) mirrors how equatorial waves are quantized by Earth’s rotation.  
+
+**Real-world analogy:**  
+The 2004 Indian Ocean tsunami propagated at \( \sim 800\ \text{km/h} \) in deep water, slowing to \( \sim 30\ \text{km/h} \) near shore—behavior perfectly modeled by shallow-water theory.  
+
+---
+
+#### **2. Dispersion Relation & Wave Velocities**  
+**What it is:**  
+A dispersion relation \( \omega(k) \) links a wave’s angular frequency \( \omega \) to its wavenumber \( k \). For linear shallow-water waves:  
+\[
+\omega = \sqrt{gH}k  
+\]  
+This implies non-dispersive waves: phase velocity \( c_p = \omega/k = \sqrt{gH} \) equals group velocity \( c_g = d\omega/dk = \sqrt{gH} \). In reality, stratification, rotation, or nonlinearity (e.g., \( \mathbf{u} \cdot \nabla \mathbf{u} \)) introduce dispersion, causing wave trains to spread.  
+
+**In the story:**  
+The "anomalous" waves exhibit dispersive behavior—their phase velocity exceeds group velocity—because Kvothe initially ignores nonlinear terms. His resonant spell targets \( c_p \), but the mismatch with \( c_g \) destabilizes the system, akin to trying to surf a wave that’s disintegrating beneath him.  
+
+**Real-world analogy:**  
+Wind-generated ocean waves disperse: long wavelengths (swells) outrun shorter ones, creating the ordered sets of rollers seen after storms.  
+
+---
+
+#### **3. Filtering Sound Waves**  
+**What it is:**  
+Sound waves (pressure oscillations) propagate at \( \sim 1500\ \text{m/s} \) in water, far faster than oceanic currents (\( \sim 1\ \text{m/s} \)). To model slow, rotation-dominated flow, meteorologists and oceanographers use the **anelastic approximation**:  
+\[
+\nabla \cdot (\rho_0 \mathbf{u}) = 0  
+\]  
+This filters sound waves by assuming density variations \( \rho' \) are small relative to a reference profile \( \rho_0(z) \). The result? A computational “low-pass filter” that retains buoyancy-driven motion while ignoring compressional noise.  
+
+**In the story:**  
+Kvothe’s spell mimics this approximation, silencing acoustic scattering to isolate the Echo Beings’ low-frequency vibrations. But by discarding compressibility, he also neglects vertical momentum—a fatal oversight when nonlinear surges strike.  
+
+**Real-world analogy:**  
+Weather models use similar filtering to simulate large-scale storms without resolving sonic vibrations.  
+
+---
+
+#### **4. Constant-Density Approximation**  
+**What it is:**  
+Assuming density \( \rho \) is uniform simplifies equations but erases stratification effects. A better compromise is the **Boussinesq approximation**: retain \( \rho \) variations only when multiplied by gravity (buoyancy):  
+\[
+\frac{D \mathbf{u}}{Dt} = -\frac{1}{\rho_0} \nabla p + b \hat{\mathbf{z}}  
+\]  
+where \( b = -g \rho'/\rho_0 \) is buoyancy. This captures baroclinic flows (motions driven by density gradients) while assuming \( \rho \approx \rho_0 \) elsewhere.  
+
+**In the story:**  
+Kvothe’s initial spell assumes constant density, failing to resolve the pycnocline’s role in amplifying internal waves. His revised model incorporates Boussinesq-like buoyancy, revealing the Echo Beings’ reliance on stratified shear.  
+
+**Real-world analogy:**  
+Internal waves—subsurface oscillations at density interfaces—transport nutrients and heat across oceans. Their breaking drives upwelling, fueling marine ecosystems.  
+
+---
+
+### **Why This Matters**  
+Kvothe’s journey mirrors the evolution of geophysical fluid dynamics:  
+1. **Simplifications Enable Discovery**: Shallow-water equations let Kelvin and Rossby unravel equatorial waves.  
+2. **Omissions Have Consequences**: Filtering sound waves stabilizes simulations but hides non-hydrostatic risks.  
+3. **Stratification Rules**: Density layers govern 90% of oceanic energy transfer; ignore them, and the abyss retaliates.  
+
+The Echo Beings’ wrath isn’t malice—it’s physics enforcing accountability. Every equation is a pact with reality: break its terms, and the ocean collects its debt in rogue waves and unraveled magic.  
+
+*Next: Kvothe confronts the primitive equations—and learns why cyclones hate harmonic lutes.*

@@ -1,0 +1,44 @@
+new_stories:
+  - name: "Kvothe and the Echo Beings"
+    keywords:
+     - "Hermite polynomials in equatorial waves"
+     - "Filtering sound waves"
+     - "Constant‑density approximation"
+     - "Primitive equations"
+     - "Dispersion relation and wave velocities"
+     - "Shallow‑water equations"
+    description: As his magical ability progresses Kvothe discovers previously undetected beings vibrating in the equatorial waves during an oceangoing expedition to unexplored regions. Through his struggles he manages to contact them -- only for them to wipe out all magical beings on earth and all evidence of their existence."
+
+  - name: "Table Tennis Champion"
+    keywords:
+     - "Semi‑implicit stability idea"
+     - "Taylor column"
+     - "Kelvin–Helmholtz energy argument"
+     - "Base state & Taylor‑Goldstein eqn"
+     - "Richardson number criterion"
+     - "Apparent (fictitious) force"
+     - "Euler force"
+    description: "Kala is a rude, unhappy person. Through her pioneering understanding of fluid dynamics, Kala becomes the worlds reigning ping pong champion. That is, until her untimely demise from the enemies she made along the way. She learns the wrong lesson about life in the end."
+
+  - name: "Hurricane Force"
+    keywords:
+     - "Ideal‑gas equation of state"
+     - "First law (specific form)"
+     - "Joule's law"
+     - "Carnot‑cycle efficiency"
+     - "Dry‑adiabatic lapse rate"
+     - "Moist‑adiabatic lapse rate"
+     - "Clausius‑Clapeyron relation"
+     - "Potential temperature"
+     - "Conditional instability"
+    description: "Two climate scientists with opposing approaches to modeling fall in love while working against time to predict a catastrophic weather event." 
+
+  - name: "Ekman and His Icebergs"
+    keywords:
+     - "Surface Ekman layer"
+     - "Bottom Ekman layer"
+     - "Ekman transport"
+     - "Ekman pumping/Suction"
+     - "Iceberg drift rule"
+    description: "An engaging, historical account of Ekman and his discoveries, including a discovery about the iceberg drift rule"
+

@@ -1,0 +1,86 @@
+**Story Plan: *Kvothe and the Echo Beings***  
+*A five-part narrative weaving fluid dynamics into a oceanic magical catastrophe, structured to cover all required concepts.*  
+
+---
+
+### **Part 1/5: "The Unseen Chorus"**  
+**Concepts:**  
+- **Shallow-water equations**  
+- **Dispersion relation and wave velocities**  
+
+**Plot:**  
+Kvothe joins a research vessel near the equatorial Pacific to study anomalies in tidal harmonics. Using a modified *sympathetic resonance* spell (tying his magic to wave frequencies), he detects rhythmic vibrations in the thermocline that defy known tidal patterns. The crew observes shallow-water waves propagating faster than predicted by linear theory, their phase velocity mismatched with group velocity—a dispersive anomaly. Kvothe derives the shallow-water equations on the ship’s chalkboard, noting how nonlinear terms might explain the spectral gaps. When he adjusts his spell to match the dispersion relation \( \omega = \sqrt{gH}k \), the waves briefly solidify into glowing filaments before dissolving. The first whisper of the Echo Beings—inaudible oscillations in the Hermite polynomial modes—echoes in his mind.  
+
+**Conflict:** The ship’s sonar fails as sound waves scatter off the anomalous waves, forcing Kvothe to recalibrate his magic using the dispersion curve.  
+
+**Foreshadowing:** Kvothe sketches a meridional wave structure resembling \( e^{-y^2/2R_e^2} \) in his journal—unaware this foreshadows equatorial trapped modes.  
+
+---
+
+### **Part 2/5: "The Silent Depths"**  
+**Concepts:**  
+- **Filtering sound waves**  
+- **Constant-density approximation**  
+
+**Plot:**  
+To isolate the Echo Beings’ signals, Kvothe develops a spell to filter out acoustic waves, mimicking the anelastic approximation (\( \nabla \cdot (\rho_0 \mathbf{u}) = 0 \)). He argues that sound waves “drown” the subtler vibrations, necessitating a magical analogue of low-pass filtering. The crew deploys depth charges to test the constant-density assumption, but Kvothe realizes stratified layers introduce errors—density variations *do* matter near the thermocline. Adjusting his spell to retain buoyancy effects, he captures a coherent waveform: a standing Rossby wave modulated by Hermite polynomials. The Echo Beings’ vibrations now manifest as phantom currents that twist navigational runes.  
+
+**Conflict:** A rogue wave (nonlinear shallow-water surge) nearly capsizes the ship when Kvothe’s filtered model underestimates vertical momentum.  
+
+**Foreshadowing:** Kvothe notes the filtered equations “ignore whispers but miss storms”—a flaw that will escalate.  
+
+---
+
+### **Part 3/5: "The Primitive Storm"**  
+**Concepts:**  
+- **Primitive equations**  
+
+**Plot:**  
+The crew enters a region where the ocean and atmosphere couple violently. Kvothe collaborates with the ship’s meteorologist to model the system using the primitive equations: hydrostatic balance, Boussinesq continuity, and Coriolis-corrected momentum. They discover the Echo Beings’ vibrations align with baroclinic instabilities in the equations—energy transfers between horizontal and vertical motion. Kvothe’s spell, now tied to the pressure gradient term \( -\frac{1}{\rho}\nabla p \), accidentally amplifies a nascent cyclone. The storm’s eye reveals a fractal pattern matching the Hermite polynomial nodes, confirming the beings’ link to equatorial waveguides.  
+
+**Conflict:** The primitive equations’ hydrostatic assumption breaks down in the cyclone’s core, forcing Kvothe to confront non-hydrostatic surges that threaten the ship.  
+
+**Foreshadowing:** A crewmember murmurs, “The equations lie when the ocean remembers to rise.”  
+
+---
+
+### **Part 4/5: "The Hermite Convergence"**  
+**Concepts:**  
+- **Hermite polynomials in equatorial waves**  
+
+**Plot:**  
+Kvothe deciphers the Echo Beings as manifestations of equatorial Kelvin and Rossby waves, their meridional structure quantized into Hermite modes (\( \Psi_n(y) \propto H_n(y/R_e)e^{-y^2/2R_e^2} \)). He builds a resonant lute attuned to \( n=0 \) (Kelvin) and \( n=1 \) (Rossby–gravity) modes, using the polynomials to orthogonalize their frequencies. Playing the lute, he stabilizes a mile-wide wave into a glowing staircase—a harmonic bridge to the beings. But the higher modes (\( n \geq 2 \)) destabilize, creating vortices that sap magical energy worldwide. The Sympathy Lamps in the ship’s hold dim; Kvothe’s mentor collapses as his alar (magical binding) unravels.  
+
+**Conflict:** The Hermite modes require infinite precision—Kvothe’s physical equations assume a rigid-lid (\( H \to \infty \)), but surface tension effects at the air-sea interface introduce lethal errors.  
+
+**Foreshadowing:** A crewmember’s dying words: “You split the wave but not the *weight*.”  
+
+---
+
+### **Part 5/5: "The Approximation’s Curse"**  
+**Concepts:**  
+- **Constant-density approximation** (revisited)  
+- Synthesis of all concepts  
+
+**Plot:**  
+The Echo Beings, fully manifested, demand Kvothe correct the “lies” in his models—the constant-density approximation ignored stratification-critical to their existence. As magic dies, Kvothe races to rederive the shallow-water equations with variable \( \rho(z) \), but the ship sinks, and seawater destroys his notes. In a final gambit, he uses the primitive equations’ pressure solver to project his mind into the wavefield, becoming a temporary eigenmode. He negotiates with the beings, offering his life-energy to restore the stratified terms. They accept—but erase all magic and their own traces to “balance the equation.” Kvothe survives, alone, on a raft. The ocean is silent.  
+
+**Resolution:**  
+The Echo Beings’ annihilation of magic mirrors the collapse of a flawed numerical simulation: truncation errors in Kvothe’s assumptions (filtered sound waves, constant density) cascaded into a singularity. The final pages of his journal, salvaged but nonsensical, contain fragmented Hermite polynomials and the phrase *“The ocean remembers the weight of what we omit.”*  
+
+---
+
+### **Concept Integration Map**  
+1. **Shallow-water equations**: Foundation for wave analysis; Kvothe’s initial model.  
+2. **Dispersion relation**: Explains anomalous wave speeds; key to resonance spells.  
+3. **Filtering sound waves**: Magical/anelastic filtering isolates Echo Beings’ signals.  
+4. **Constant-density approximation**: Fatal flaw in Kvothe’s model; triggers the catastrophe.  
+5. **Primitive equations**: Climactic storm modeling; hydrostatic balance failure.  
+6. **Hermite polynomials**: Structure of the Echo Beings’ waveforms; meridional quantization.  
+
+**Themes:**  
+- The cost of oversimplification (constant-density, filtering).  
+- Ocean as a chaotic PDE solver—magic as an unstable numerical scheme.  
+- Eigenmodes as sentience: “To be a solution is to be alive.”  
+
+By Part 5, all required concepts are woven into Kvothe’s hubris-driven arc, culminating in a thermodynamic allegory for unphysical assumptions.

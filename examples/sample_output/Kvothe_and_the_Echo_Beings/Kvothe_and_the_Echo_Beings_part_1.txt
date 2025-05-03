@@ -1,0 +1,68 @@
+**Kvothe and the Echo Beings – Part 1/5: "The Unseen Chorus"**  
+
+---
+
+The *Wandering Origin* pitched violently as Kvothe braced himself against the chart table, his chalk skating across the slate in jagged arcs. Outside the porthole, the equatorial Pacific stretched endless and indigo, its surface scarred by rogue waves that crested like the spines of submerged leviathans. The ship’s captain, a grizzled woman named Tessa, had called these waters "the ocean’s tuning fork"—a place where tides sang in frequencies too low for human ears. Now, as the vessel’s alchemical engine hummed in dissonant harmony with the swells, Kvothe understood why.  
+
+“Another anomaly at 120 fathoms,” called Lira, the junior hydrographer, her fingers dancing over a brass-rimmed sonograph. The machine’s quartz stylus etched jagged peaks onto rotating parchment—a seismogram of the deep. “Wave troughs are compressing. It’s like the thermocline’s breathing.”  
+
+Kvothe squinted at the data. For three days, they’d tracked shallow-water waves propagating westward at speeds that defied the linearized equations. According to theory, their phase velocity should have been \( c_p = \sqrt{gH} \), where \( H \) was the average depth. But these waves raced ahead of their own group velocity, leaving dispersive tails that shimmered with unnatural phosphorescence.  
+
+“It’s nonlinearity,” he muttered, seizing the chalk. On the slate, he scrawled the shallow-water momentum equations:  
+
+\[
+\frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} - fv = -g \frac{\partial \eta}{\partial x}  
+\]  
+\[
+\frac{\partial v}{\partial t} + u \frac{\partial v}{\partial x} + v \frac{\partial v}{\partial y} + fu = -g \frac{\partial \eta}{\partial y}  
+\]  
+
+“You’re neglecting the Coriolis term,” said Dr. Vellen, the expedition’s lead oceanographer, peering over his shoulder. Her voice carried the clipped precision of someone who’d written textbooks on rotational hydrodynamics. “At the equator, \( f = 2\Omega \sin \phi \) vanishes. We’re in an f-plane singularity.”  
+
+“But the waves aren’t,” Kvothe countered. He circled the nonlinear advection terms \( u \frac{\partial u}{\partial x} \) and \( v \frac{\partial v}{\partial y} \). “They’re self-accelerating. Like a current that fuels its own momentum.”  
+
+A shudder passed through the hull. The sonograph’s stylus snapped.  
+
+“The sonar’s gone dark,” Lira said, her composure fraying. “Acoustic pulses are scattering—it’s as if the water itself has become... *granular*.”  
+
+Kvothe’s left hand instinctively brushed the silver lute case at his side. Sympathy—the art of binding like to like—required resonance, and resonance demanded precise frequencies. If these waves were violating their own dispersion relation \( \omega(k) = \sqrt{gH}k \), perhaps their very existence hinged on a harmonic oversight.  
+
+“I need to cast a broader net,” he said, striding to the instrument locker.  
+
+---
+
+By moonrise, Kvothe had rigged a makeshift observatory on the aft deck. Three copper bowls floated in saltwater baths, their rims inscribed with wave-numbered runes. A gut string, stretched between the ship’s rail and the mainmast, thrummed with the vibrations of the deep—a sympathetic link to the thermocline’s oscillations.  
+
+“You’re mad,” Vellen shouted over the wind. “No spell can bind something moving at 30 knots!”  
+
+“Not a binding,” Kvothe replied, adjusting the string’s tension. “A mirror.”  
+
+He plucked the string, and the note \( A_4 \) (440 Hz) shivered through the air. The copper bowls resonated, their water surfaces patterning into concentric ripples. But as the ship crested a wave, the ripples *froze*, etching ephemeral glyphs into the brine—a fleeting interference pattern between the spell’s frequency and the anomaly’s hidden structure.  
+
+“There!” Kvothe lunged for his chalk. The glyphs matched the Hermite polynomials he’d seen in quantum harmonic oscillators during his brief tenure at the University: \( H_0(y) = 1 \), \( H_1(y) = 2y \), their Gaussian decay \( e^{-y^2/2R_e^2} \) hinting at meridional trapping. But this wasn’t quantum mechanics—it was fluid dynamics. The waves were eigenmodes, constrained by the equator’s rotational physics.  
+
+“The dispersion relation was incomplete,” he realized aloud. “We’re seeing a superposition of modes—each with its own \( \omega(k) \). The nonlinear terms are coupling them!”  
+
+A monstrous wave struck the port side. The *Wandering Origin* listed violently, sending equipment skidding. Kvothe grabbed the rail, his notes fluttering into the abyss.  
+
+“Get us out of here!” Vellen barked at the helm.  
+
+“Wait!” Kvothe’s hand glowed faintly as he channeled a sliver of energy into the sympathetic string. “The group velocity \( c_g = \frac{d\omega}{dk} \)—if I can match it to the phase velocity...”  
+
+He retuned the string, aligning its harmonics with the theoretical \( c_p/c_g \) ratio. The copper bowls flared azure, and for a heartbeat, the chaos stilled. The waves ahead solidified into luminous filaments—a grid of vibrating strings stretched taut across the ocean’s skin.  
+
+Then the vision shattered.  
+
+“Sonar’s back!” Lira cried from belowdecks. “But the anomaly’s gone!”  
+
+Kvothe slumped against the mast, exhaustion clawing at him. The filaments had been no natural phenomenon. Their geometry was too precise, their frequencies too... *aware*.  
+
+In his mind’s ear, a whisper: *You split the wave but not the weight.*  
+
+---
+
+**Concepts Taught:**  
+1. **Shallow-Water Equations**: Illustrated through Kvothe’s derivations and the nonlinear advection terms driving anomalous wave speeds.  
+2. **Dispersion Relation**: Demonstrated by the mismatch between phase/group velocities and Kvothe’s resonant spell aligning with \( \omega(k) \).  
+
+**Next Part Teaser:** As Kvothe seeks to filter out interfering sound waves, the crew discovers that the ocean’s density layers hold secrets—and costs—the equations never predicted...
