@@ -16,7 +16,7 @@
 *What began as an experiment in educational neuroscience became humanity's most ambitious archive - embedding crucial scientific knowledge within narratives that could survive the coming dark age. Every story a time capsule. Every equation a lifeline to a future that might once again embrace understanding.*
 
 *This repository contains the artifact of that effort - the StoryWriter system.*
-[StoryWriter](banner.png)
+![StoryWriter](banner.png)
 
 ## About StoryWriter
 
