@@ -29,7 +29,6 @@ The system takes scientific flashcards as input and generates multi-part narrati
 storywriter/
 ├── data/                     # Configuration and input data
 │   ├── prefix.txt            # Scientific concepts/flashcards used for context 
-│   ├── stories.csv           # Story definitions in CSV format
 │   └── stories.yaml          # Story definitions in YAML format
 ├── docs/                     # Documentation
 ├── examples/                 # Example content
