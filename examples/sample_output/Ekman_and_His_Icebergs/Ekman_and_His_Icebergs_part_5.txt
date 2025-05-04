@@ -1,0 +1,133 @@
+**"Ekman and His Icebergs - Part 4: The Berg’s Equation"**  
+*(Featuring: Iceberg Drift Rule, Bottom Ekman Layer [revisited])*  
+
+---
+
+**July 1910  
+Jakobshavn Glacier, Greenland**  
+
+The thunder of calving ice echoed through Disko Bay as Vagn Ekman adjusted his theodolite, its brass fittings fogging in the Arctic summer’s chill. Before him stretched a flotilla of icebergs—tabular behemoths and weathered pinnacles, each drifting southeast at their own stubborn angle.  
+
+*25°… 28°… 31°…*  
+
+He recorded the bearings, comparing them to wind vectors from his anemometer array. Three weeks of dawn-to-midnight observations revealed a maddening pattern: bergs drifted 20°–30° right of the wind, but never the precise 45° his surface layer model predicted.  
+
+“They’re taunting you,” said Rasmus, his Greenlandic guide, chipping frost from a mercury thermometer. “Qaqortoq’s children have their own laws.”  
+
+“Laws written in salt and shear stress,” Ekman muttered, training his scope on a tilted berg. Its prow rose ten meters above the swell, while the submerged keel glowed blue through clear water—a lopsided wedge angled like a sinking sail.  
+
+*Tilt alters the exposed surfaces… changes the balance between wind and current drag.*  
+
+He sketched force vectors in his notebook:  
+- **Wind stress (\( \tau_{\text{wind}} \))**: Proportional to berg’s exposed area, acting parallel to wind.  
+- **Water stress (\( \tau_{\text{ocean}} \))**: Proportional to submerged keel area, aligned with Bottom Ekman layer flow (left of surface current).  
+
+The resultant vector explained the drift angle. But without knowing the keel’s exact shape…  
+
+A rifle crack split the air. Rasmus lowered his smoking Mauser, shattering a growler drifting too close to their camp. “We’ll need louder prayers soon. The glacier’s restless.”  
+
+---
+
+**The Tilt Factor**  
+
+At midnight sun, Ekman launched his riskiest experiment yet. Using dynamite charges, he calved a small berg from the glacier’s face, then tracked it via theodolite as it drifted.  
+
+Initial measurements:  
+- **Wind**: 12 m/s from NW (310°)  
+- **Berg speed**: 0.25 m/s (2% of wind speed)  
+- **Drift angle**: 27° right  
+
+“Consistent with the rule,” Ekman noted.  
+
+But as the berg’s base melted unevenly, its tilt increased. The prow rose, exposing more keel to deeper currents. Within hours:  
+
+- **Wind**: Steady 12 m/s NW  
+- **Berg speed**: 0.18 m/s  
+- **Drift angle**: 33° right  
+
+“Deeper draft amplifies bottom layer’s grip!” Ekman realized. He waded into the numbing shallows, securing a plumb line to the berg’s submerged face. Depths varied from 40m (windward) to 70m (lee).  
+
+*The keel isn’t vertical—it’s a slope!*  
+
+Back at camp, he derived the drift angle as a function of tilt (\( \theta \)):  
+
+$$ \alpha = \arctan\left( \frac{\tau_{\text{wind}} \sin \theta}{\tau_{\text{ocean}} \cos \theta} \right) $$  
+
+Rasmus studied the equation. “So… bergs lean into the current?”  
+
+“Like a sailboat heeling under wind! The tilt couples them to both Ekman layers.”  
+
+A low rumble interrupted. Across the bay, a serac the size of Oslo Cathedral broke free, birthing a tsunami of ice fragments.  
+
+“Pack the instruments!” Rasmus yelled.  
+
+---
+
+**The Storm Test**  
+
+By dawn, a katabatic wind roared off the ice sheet, hurling brash ice at the camp. Ekman lashed himself to the main theodolite, tracking a tagged berg through horizontal snow.  
+
+**Data:**  
+- **Wind**: 22 m/s, NW  
+- **Berg speed**: 0.44 m/s (2% wind speed)  
+- **Drift angle**: 24° right  
+
+Consistent! But then the berg collided with a submerged moraine, jolting upright. Its draft shallowed from 60m to 30m.  
+
+**New data:**  
+- **Wind**: 22 m/s, NW  
+- **Berg speed**: 0.55 m/s  
+- **Drift angle**: 18° right  
+
+“Confirmation!” Ekman whooped into the gale. “Reduced draft weakens bottom layer’s hold—angle decreases!”  
+
+Rasmus dragged him into a crevasse as a house-sized berg plowed through camp, obliterating the supply tent.  
+
+“Your equations nearly got us killed!”  
+
+“But they *predicted* that path!” Ekman showed his notes: the berg’s pre-collision track matched a 24° forecast. “Chaos has vectors!”  
+
+---
+
+**The Rule Revealed**  
+
+Post-storm, Ekman compiled 217 drift records. Plotting tilt angle versus drift, a sine curve emerged—nature’s ratification of his equation.  
+
+“The Iceberg Drift Rule,” he announced at camp’s remnants. “Any berg’s path obeys:  
+
+1. **Drift speed**: ~2% of wind speed, as surface/bottom stresses balance.  
+2. **Drift angle**: \( \alpha = \arctan(\frac{A_{\text{wind}}}{A_{\text{ocean}}}} ) \), where \( A \) = exposed area.  
+
+Tilt modifies the areas, allowing prediction.”  
+
+Rasmus nursed a frostbitten thumb. “Useful if you’re mad enough to chase bergs. How’s it help *normal* sailors?”  
+
+Ekman gestured to a chart of the Titanic’s route. “Imagine knowing every berg’s drift vectors. We could map Atlantic kill zones—save thousands.”  
+
+A distant boom echoed as Jakobshavn calved again. The resulting tsunami of ice shards veered 28° right, precise as a clock hand.  
+
+---
+
+**Epilogue: The Cost**  
+
+At month’s end, packing to leave, Ekman found Rasmus chiseling a granite cenotaph:  
+
+**HERE FELL KJETIL AND EINAR  
+TO THE ICE’S MALICE  
+MAY 1910**  
+
+“Your predecessors,” Rasmus said. “Chased a berg into a lee shore. Thought wind was king.”  
+
+Ekman placed his plumb line on the memorial. “Now we know better.”  
+
+“Do we?” Rasmus eyed the glacier’s fractured face. “Your rule’s a lantern, Herr Doktor. But the Arctic’s still dark.”  
+
+As their skiff retreated through ice-choked waters, Ekman watched his tagged bergs drift—each a white comma punctuating the sea’s hidden grammar.  
+
+---
+
+**Concepts Taught:**  
+1. **Iceberg Drift Rule**: Derived via tilt-dependent balance between wind (Surface Ekman) and water (Bottom Ekman) stresses.  
+2. **Bottom Ekman Layer**: Revisited as submerged keels interact with left-deflecting currents, reducing drift angle.  
+
+**Next Part Teaser:** In Lisbon, an aged Ekman synthesizes his life’s work—as modern oceanographers unveil how his gears mesh with abyssal storms...

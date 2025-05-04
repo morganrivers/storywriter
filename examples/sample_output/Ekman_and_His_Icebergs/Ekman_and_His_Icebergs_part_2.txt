@@ -1,0 +1,121 @@
+**"Ekman and His Icebergs - Part 2: The Spiral’s Secret"**  
+*(Featuring: Surface Ekman Layer [deepened], Bottom Ekman Layer)*  
+
+---
+
+**March 1905  
+Oslo, Norway  
+Ekman’s Laboratory**  
+
+The scent of pine tar and Baltic seawater clung to the cramped basement room. Vagn Walfrid Ekman hunched over a rotating wooden tank, its brass gears whining as it spun counterclockwise—a miniature Arctic Ocean driven by a hand-cranked flywheel. Through the murky water, tendrils of dye spiraled downward from a surface paddle, their paths warped by Coriolis forces simulated through rotation.  
+
+“Faster, Olaf! Maintain angular velocity!” Ekman barked at his teenage assistant, who redoubled his cranking.  
+
+The dyed streaks veered right, replicating the *Fram*’s drogue data—surface flow deflected 45°, each deeper layer lagging further—but then something unexpected happened. Near the tank’s false seafloor, the spirals reversed, curling *left* as if mirroring the surface.  
+
+“Stop!” Ekman seized a protractor. The bottommost dye tendril angled 45° portside of the subsurface current. “It’s inverted… a counter-spiral.”  
+
+Olaf wiped sweat from his brow. “Maybe the tank’s leaking?”  
+
+“No. It’s *friction*.” Ekman’s mind raced. The surface spiral arose from wind stress; perhaps the seabed exerted its own drag, creating a bottom boundary layer. He grabbed a wax plate shaped like the ocean floor and submerged it ahead of the dye. As the tank spun, the plate’s ridges gripped the water’s lowest layer, deflecting it left.  
+
+“The bottom layer… it’s governed by the same equations but forced by seabed drag instead of wind!” He scrawled modified versions of his 1902 equations:  
+
+**Surface Layer:**  
+$$ \nu \frac{\partial^2 u}{\partial z^2} = f v $$  
+$$ \nu \frac{\partial^2 v}{\partial z^2} = -f u $$  
+
+**Bottom Layer:**  
+$$ \nu \frac{\partial^2 u}{\partial z^2} = -f v $$  
+$$ \nu \frac{\partial^2 v}{\partial z^2} = f u $$  
+
+“Merely a sign change,” he muttered, “but it flips the spiral’s handedness.”  
+
+Olaf peered at the symbols. “So the seafloor… *steals* momentum?”  
+
+“Redistributes it. The surface and bottom layers are gears in opposition—their combined transport could explain coastal upwelling…” Ekman trailed off, envisioning the North Atlantic’s great fisheries where cold, nutrient-rich water surged upward.  
+
+---
+
+**Two Weeks Later**  
+
+The *Christiania Gazette*’s headline dripped scorn: *“Madman’s Bathtub: Local Academic Claims Oceans Spin Like Clockwork.”* Ekman crumpled the paper, stung less by the ridicule than by his colleagues’ silence. His monograph *On the Influence of the Earth’s Rotation on Ocean Currents* had circulated to oceanographers from Bergen to Boston, met with resounding indifference.  
+
+“They’ll come around,” said his wife, Ida, arranging smørbrød on his desk. She nodded at a letter amidst the chaos. “This arrived from Finnmark.”  
+
+Ekman broke the seal. The note, penned by a Lofoten fisherman, read:  
+
+*Herr Doktor—  
+Your 45° rule saved us. Last squall, we let the wind push us starboard until the gale felt portside. Drifted clear of rocks. You’re either a genius or the best liar in Norway.  
+—E. Johansen*  
+
+Ida smiled. “Proof your spirals exist.”  
+
+“But not the full picture.” Ekman spread Jakobshavn berg-drift data across the table. “Observed drift angles never exceed 30°. If both surface *and* bottom layers tug the ice…”  
+
+Ida traced a berg’s tilted keel in a photograph. “What if they’re not flat? A slanting hull would couple with deeper currents.”  
+
+Ekman froze. He’d assumed icebergs were passive slabs. But if their submerged faces angled into the bottom Ekman layer…  
+
+A knock interrupted them. Olaf burst in, holding a telegram. “From Bergen! Professor Helland-Hansen requests your presence aboard the *Michael Sars*. They’ve observed… *thermal spirals*?”  
+
+---
+
+**Fjord Trials**  
+
+The steamship *Michael Sars* cut through glassy waters south of Bergen, its winch lowering a revolutionary new device: the *Ekman Current Meter*, a brass rotor with twenty vanes spaced every 10 meters.  
+
+“Your design, Herr Ekman,” said Helland-Hansen, adjusting the winch brake. “Let’s see if it catches more than shrimp.”  
+
+Ekman monitored the rotor’s orientation as it sank. At 30m depth, the vanes swung 45° left—mirroring his tank’s bottom layer.  
+
+“Confirming your dual spirals!” Helland-Hansen shouted over the wind. “But look here—” He handed Ekman a temperature log. Below 50m, the water warmed abruptly, defying the usual gradient.  
+
+“Upwelling,” Ekman realized. “Surface water pushed offshore by Ekman transport is replaced by deep, warmer water. Your ‘thermal spiral’ is vertical motion!”  
+
+A deckhand interrupted, hauling a net bursting with krill. “Never seen such rich hauls this far inshore!”  
+
+Ekman scribbled the transport equation:  
+$$ \mathbf{M}_E = \frac{\hat{k} \times \boldsymbol{\tau}_s}{\rho f} $$  
+“Net movement 90° to the wind… but if the coast blocks this transport, water must rise or sink to compensate. Hence your krill banquet.”  
+
+Helland-Hansen grinned. “So winds write menus for fish?”  
+
+“And bergs,” Ekman murmured, watching a distant iceberg fragment in the swell. Its smaller chunks immediately veered farther right. *Kinematics of tilt…*  
+
+---
+
+**Oslo, Later That Night**  
+
+Back in his lab, Ekman recreated coastal dynamics by slanting the tank’s false seafloor. As Olaf cranked, surface dye spiraled right while bottom streaks curled left—until they collided near the “coast,” forcing upward plumes of dye.  
+
+“Ekman pumping,” he whispered. “Converging transports drive vertical flows.” He calculated the vertical velocity:  
+$$ w_E = \frac{1}{\rho f} \hat{k} \cdot (\nabla \times \boldsymbol{\tau}_s) $$  
+
+Ida entered, holding their crying newborn. “Vagn, even ships dock at midnight.”  
+
+He didn’t look up. “The pumping… it’s why Johansen’s fishery bloomed. Wind stress curl creates upwelling, but bergs—their tilt couples them to *both* layers. They’re tugged by surface and bottom gears simultaneously!”  
+
+Ida bounced the baby gently. “So which gear wins?”  
+
+“The vector sum. If I model the berg as a plank with draft *d*, tilted at angle *θ*…”  
+
+A sudden wail pierced the room. The baby’s milk bottle rolled across the tank, disrupting the dye. Ekman stared as the spirals dissolved into chaos.  
+
+“Priorities, Herr Doktor,” Ida chided, retreating upstairs.  
+
+Alone, Ekman replayed her question. *Which gear wins?* He graphed data from Jakobshavn: tilt angles versus drift. A pattern emerged—deeper drafts correlated with smaller deflection angles.  
+
+*The bottom layer resists the surface’s pull. But how?*  
+
+Outside, a freezing rain iced the streets. Somewhere in the North Sea, icebergs drifted like lost equations, their keels grazing the hidden counter-spiral.  
+
+Ekman lit another lamp. The gears, at least, would never sleep.  
+
+---
+
+**Concepts Taught:**  
+1. **Surface Ekman Layer (Deepened):** Lab experiments validate spiral dynamics, linking wind stress to perpendicular transport (\( \mathbf{M}_E \)).  
+2. **Bottom Ekman Layer:** Revealed as inverted spiral driven by seabed friction, completing momentum cycle.  
+
+**Next Part Teaser:** Aboard the *Michael Sars*, Ekman traces nutrient upwelling to a hidden vertical pump—while Ida’s insight about tilted bergs brews a storm...

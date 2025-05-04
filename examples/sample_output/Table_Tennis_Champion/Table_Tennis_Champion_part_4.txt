@@ -1,0 +1,146 @@
+**Table Tennis Champion - Part 3/5: "The Stratification Gambit"**  
+*(Featuring: Base State & Taylor-Goldstein Equation, Richardson Number Criterion)*  
+
+---
+
+The Paris Open arena reeked of espresso and impending rain. Humidity clung to Kala’s skin like a jealous lover—92% relative, her watch confirmed. She stared at the ceiling’s malfunctioning HVAC vents, their labored breaths puffing moist air into layers: dense, cool near the floor; warm and buoyant above.  
+
+*Stable stratification. Gradient Richardson number > 0.25.*  
+
+Across the net, Élodie Dubois—defending champion, daughter of meteorologists—adjusted her headband with surgical precision. Her game was altitude-aware, leveraging Paris’ thin air for dead drops. But today’s muggy hell had thickened the atmosphere into a fluid dynamics lab.  
+
+Kala licked her lips. *Perfect.*  
+
+---
+
+**Game One:**  
+
+Élodie served with a whisper—a no-spin float that danced on thermal updrafts. The ball’s path wavered, caught between competing air densities.  
+
+*Base state: U(z) = 0.3z m/s shear, N² = (g/θ)dθ/dz = 0.02 s⁻².*  
+
+Kala’s mind raced through the Taylor-Goldstein equation governing stratified shear flows:  
+
+\[ (U - c)(\phi'' - k²\phi) - U''\phi + \frac{N²}{U - c}\phi = 0 \]  
+
+Where:  
+- \( U(z) \) = ambient shear profile  
+- \( c \) = wave phase speed  
+- \( \phi \) = perturbation streamfunction  
+
+Élodie’s shot lived at z = 0.5 m—the unstable inflection point where U’’ peaked. Kala sliced her return at 45°, imparting just enough topspin to seed a perturbation.  
+
+The ball’s wake rippled. Laminar flow buckled into KH billows.  
+
+Élodie’s backhand met turbulence. The ball rocketed into the rafters.  
+
+“*Merde*,” Élodie hissed.  
+
+Kala smirked. “Buoyancy frequency’s a bitch.”  
+
+---
+
+**Intermission 3: The Physics of Choked Air**  
+
+1. **Taylor-Goldstein Equation**  
+   - *What it is:* Governs stability of stratified shear flows. Solutions predict whether perturbations grow (instability) or decay.  
+   - *In the story:* Kala identifies the humidity-laden arena as a stably stratified fluid (N² > 0). By solving T-G mid-rally, she finds unstable eigenmodes to amplify with precise spin.  
+   - *Real-world analogy:* Clear-air turbulence forming when jet stream shear overcomes atmospheric stratification.  
+
+2. **Richardson Number Criterion**  
+   - *What it is:* Ratio of buoyancy forces (stabilizing) to shear forces (destabilizing). Flow becomes turbulent when:  
+     \[ \text{Ri} = \frac{N²}{(\partial U/\partial z)²} < 0.25 \]  
+   - *In the story:* Kala crafts shots that maximize vertical shear (\(\partial U/\partial z\)) near the table, driving Ri below critical. The resulting turbulence sabotages Élodie’s precision.  
+   - *Real-world analogy:* Wind shear thunderstorms exploding when Ri plummets during cold fronts.  
+
+---
+
+**Game Four:**  
+
+Élodie adapted, attacking with knuckleballs that barely grazed the net. Each shot minimized aerodynamic perturbation—no spin, no wake.  
+
+Kala responded by weaponizing the arena’s own stratification.  
+
+During a timeout, she recalibrated her paddle’s surface: nanoscale ridges to trip boundary layer flow. The first test shot hissed like a snake, its seam shedding vortices into the moist air.  
+
+*Forced perturbation. Triggering modal resonance.*  
+
+The ball’s wake interacted with the ambient shear layer, exciting an unstable Taylor-Goldstein eigenmode. Midflight, the airflow oscillated wildly—pressure swings yanking the ball into a chaotic stagger.  
+
+Élodie swung early. Late. Then not at all.  
+
+“What *is* this?!” she demanded as Kala took the set 11-3.  
+
+“Baroclinic instability,” Kala said, toweling off. “Read a book.”  
+
+---
+
+**The Trap:**  
+
+By the fifth game, the HVAC gave up. Humidity pooled—warm strata capping cool like oil on water. Kala’s sensors showed Ri hovering at 0.3.  
+
+*Too stable. Need more shear.*  
+
+She served a sidespin skidder along the table’s edge. The ball’s rotation entrained slow-moving damp air near the surface, creating a velocity jump:  
+
+- Lower layer (z < 0.1 m): U = 10 m/s (ball-induced)  
+- Upper layer (z > 0.1 m): U = 2 m/s (ambient)  
+
+Shear (\(\partial U/\partial z\)) spiked to 80 s⁻¹.  
+
+\[ \text{Ri} = \frac{0.02}{(80)²} = 0.0003 \]  
+
+*Catastrophic instability.*  
+
+The boundary layer erupted. Turbulent eddies grabbed the ball, yanking it sideways. Élodie’s return caught the net’s tape, her calves cramping from constant lunges.  
+
+“Medical timeout!” the umpire called.  
+
+Kala sipped electrolyte water, mentally refining her model. *Increase humidity 2% to reduce N². Widen shear layer for sustained turbulence.*  
+
+---
+
+**Intermission 3 (cont’d):**  
+
+- *Kala’s Stratified Hell:* The arena’s air acts as a density fluid. Her shots create shear zones resembling oceanic thermoclines, ripe for turbulent breakdown when Ri < 0.25.  
+- *Real-World Torture:* Mountain wave clouds form when stable air layers (high Ri) are forced over peaks, triggering turbulence as Ri plummets. Kala replicates this at table height.  
+
+---
+
+**Final Set:**  
+
+Élodie staggered back, drenched. The crowd chanted her name, a dull roar Kala translated as white noise.  
+
+Match point.  
+
+Kala served a high-arcing lob into the arena’s warm upper layer. The ball slowed, caught in buoyant uplift—then plunged through the cold lower stratum like a meteor.  
+
+*Density current. Gravity current head velocity: u = 0.5√(g’h).*  
+
+Here, reduced gravity \( g’ = g(\Deltaρ/ρ₀) = 0.1 \) m/s², layer depth \( h = 0.3 \) m. The ball’s nose dove at 0.87 m/s, trailing turbulent wakes.  
+
+Élodie swung—too late. The ball kissed the table’s edge, its impact echoing like a judge’s gavel.  
+
+“Game,” Kala declared, though no one heard. The crowd was already screaming—not for Élodie, but *at* Kala.  
+
+---
+
+**Post-Game:**  
+
+Élodie collapsed during the handshake, IVs later blaming “dehydration exacerbated by erratic lunges.” Kala’s press conference lasted seven seconds:  
+
+“Fluid dynamics doesn’t care about cramps.”  
+
+That night, her hotel door rattled with eggs and epithets. The anonymous texts escalated:  
+
+**> Stratification cuts both ways.**  
+**> What’s your N² when you can’t breathe?**  
+
+She blocked another number, but the threats seeped in. Humidity condensed on her windows like sweat.  
+
+---
+
+**Next Part Teaser:**  
+*Kala’s paranoia codifies into a semi-implicit simulator—predicting moves before opponents think them. But when Brazilian fury meets machine-learning betrayal, her models face chaos no equation can tame...*  
+
+*(Concepts: Semi-Implicit Stability Idea)*

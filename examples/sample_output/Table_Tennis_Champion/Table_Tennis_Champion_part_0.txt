@@ -1,0 +1,97 @@
+**Title: Table Tennis Champion**  
+**Story Description:** Kala, a brilliant but abrasive fluid dynamicist, leverages her mastery of rotating flows and instabilities to dominate professional ping pong. Her ruthless ascent and dismissal of human connection lead to a fatal miscalculation rooted in the very physics she thought she controlled.  
+
+---
+
+### **Part 1/5: "Spin of Contempt"**  
+**Concepts:** *Apparent (fictitious) force, Euler force*  
+
+Kala practices alone in a grimy Seoul gym, her paddle slicing air thick with humidity. A former researcher fired for berating colleagues, she now sees table tennis as a fluid puzzle: the ball’s spin a Coriolis parable, the table a rotating frame.  
+
+**Key Scene:**  
+- **Apparent Force:** Kala visualizes the ball as a parcel in Earth’s frame. When she imparts topspin, the Magnus effect curves its trajectory—a *fictitious force* bending its path relative to opponents. She mocks a rival: “You’re playing in an inertial frame. I’m not.”  
+- **Euler Force:** During a rapid wrist flick (angular acceleration), she calculates the Euler term \( a_E = -\frac{d\boldsymbol{\Omega}}{dt}\times r \), ensuring her paddle’s spin-up doesn’t destabilize the ball’s axis. A commentator notes her serves “defy acceleration physics.”  
+
+**Conflict:** Kala humiliates defending champion Li Wei by weaponizing spin-induced pressure gradients. Li’s coach mutters, “She treats people like boundary conditions.”  
+
+**Intermission 1:**  
+- *Apparent Forces*: On a rotating table (non-inertial frame), the ball’s curved path isn’t magic—it’s math. Kala’s topspin mimics Earth’s Coriolis, tricking opponents’ instincts.  
+- *Euler Force*: Quick paddle acceleration adds a transient rotational force. Kala’s precise timing avoids torque that would send the ball wild.  
+
+---
+
+### **Part 2/5: "The Taylor Column Trap"**  
+**Concepts:** *Taylor column, Kelvin-Helmholtz energy argument*  
+
+Now ranked #3 globally, Kala faces Russian prodigy Ivan Volkov, whose serves resemble turbulent jets. She retreats to a lab, simulating his spins in a rotating tank.  
+
+**Key Scene:**  
+- **Taylor Column:** In rapidly spun water (low Rossby number), dye streaks form vertical columns—fluid locked to the tank’s rotation. Kala realizes Ivan’s sidespin creates analogous "sticky" vortices, trapping the ball’s motion. She adjusts her returns to *pierce* the column via targeted backspin.  
+- **Kelvin-Helmholtz Instability:** Ivan’s serves shear airflow, creating unstable velocity gradients. Kala amplifies this by slicing her paddle edge-first, triggering chaotic vortices that destabilize his spin. “You’re just a shear flow,” she sneers post-match.  
+
+**Conflict:** Ivan’s team accuses her of "aerodynamic sabotage." Kala leaks their illicit doping data, burning bridges.  
+
+**Intermission 2:**  
+- *Taylor Column*: In rotating systems, obstacles (like a paddle) force fluid into rigid columns. Kala disrupts these by matching her paddle’s angular velocity to the ball’s spin.  
+- *Kelvin-Helmholtz*: When two fluid layers (e.g., air over ball) shear, kinetic energy overcomes gravity, spawning instability. Kala’s edge strikes maximize shear to fracture Ivan’s spins.  
+
+---
+
+### **Part 3/5: "The Stratification Gambit"**  
+**Concepts:** *Base state & Taylor-Goldstein equation, Richardson number criterion*  
+
+At the Paris Open, Kala encounters humid indoor air creating stratified layers. She models the arena as a stably stratified fluid, exploiting buoyancy frequencies.  
+
+**Key Scene:**  
+- **Taylor-Goldstein Equation:** Kala solves \( (U-c)(\phi''-k^2\phi) - U''\phi + \frac{N^2}{U-c}\phi = 0 \) mid-match, identifying unstable wave modes in the damp air. She serves with varying topspin to resonate with these modes, making balls wobble erratically.  
+- **Richardson Number:** By ensuring \( \text{Ri} = \frac{N^2}{(\partial U/\partial z)^2} < 0.25 \), she triggers turbulence in the ball’s wake. Opponent Élodie’s returns veer into the net, “as if the air itself rebelled.”  
+
+**Conflict:** Élodie collapses from dehydration exacerbated by Kala’s delaying tactics. The crowd turns hostile; Kala tweets, “Density stratification always wins.”  
+
+**Intermission 3:**  
+- *Taylor-Goldstein*: Governs stability of stratified shear flows. Kala manipulates the arena’s humidity-induced \( N^2 \) to destabilize airflow around the ball.  
+- *Richardson Number*: Her serves create velocity shear (\( \partial U/\partial z \)) that breaches the Ri < ¼ threshold, ensuring turbulent breakdown of opponents’ precision.  
+
+---
+
+### **Part 4/5: "Semi-Implicit Betrayal"**  
+**Concepts:** *Semi-implicit stability idea*  
+
+Kala’s paranoia peaks. She codes a simulator using **semi-implicit time-stepping**—modeling opponents’ neural delays by treating their visual processing as stiff ODEs.  
+
+**Key Scene:**  
+- **Semi-Implicit Stability:** By solving paddle kinematics implicitly (stable for any \( \Delta t \)) and ball trajectories explicitly, she predicts opponents’ moves 300ms ahead. Facing Brazilian phenom Carlos, she preempts his slams with dead drops, murmuring, “Your cerebellum is a legacy code.”  
+
+**Conflict:** Carlos’s AI sponsor hacks her simulator, feeding false data. Kala’s returns grow predictable, but she still wins via brute-force physics. “Algorithms can’t spin,” she tells reporters, unaware Carlos’s drones now track her every practice.  
+
+**Intermission 4:**  
+- *Semi-Implicit Methods*: Kala’s code handles fast neural responses (implicit) and slow muscle motions (explicit), avoiding CFL constraints. This lets her simulate full matches in real time, pre-guessing shots.  
+
+---
+
+### **Part 5/5: "The Vortex’s Price"**  
+**Concepts:** *All previous, culminating in Kala’s demise via misapplied physics*  
+
+In the Beijing finals, Kala faces Li Wei’s revenge. The arena’s HVAC system—sabotaged by rivals—alters airflow stratification.  
+
+**Key Scene:**  
+- **Hubris:** Confident in her models, Kala ignores the changed \( N^2 \). A critical serve’s Richardson number exceeds 0.25; her signature turbulence fails, leaving the ball hanging. Li smashes it into her temple.  
+- **Euler Force Miscalculation:** Stumbling, Kala misjudges the paddle’s angular acceleration. The Euler term \( a_E \) torques the ball into her throat, collapsing her windpipe.  
+
+**Finale:** Dying, Kala hallucinates the Taylor columns she once commanded now fracturing into Kolmogorov turbulence. Her last thought: “The equations were perfect. People… weren’t.” The crowd cheers Li, oblivious to the physics that killed her.  
+
+**Intermission 5:**  
+- *Fatal Flaw*: Kala treated human variables as boundary conditions, not nonlinear terms. Her dismissal of social “viscosity” allowed enemies to perturb her system beyond stability.  
+
+---
+
+**Concepts Covered:**  
+1. Apparent (fictitious) force  
+2. Euler force  
+3. Taylor column  
+4. Kelvin-Helmholtz energy argument  
+5. Base state & Taylor-Goldstein eqn  
+6. Richardson number criterion  
+7. Semi-implicit stability idea  
+
+**Tragic Arc:** Kala’s expertise in fluid dynamics grants her dominance but blinds her to the chaos of human interaction. Her death by misapplied Euler force becomes a dark punchline: even genius can’t model malice.

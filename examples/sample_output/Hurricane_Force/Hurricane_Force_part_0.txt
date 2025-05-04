@@ -1,0 +1,98 @@
+**Story Plan: *Hurricane Force* – A Five-Part Scientific Romance**  
+
+---
+
+### **Part 1/5: "The Spark"**  
+**Concepts Taught:**  
+1. **Ideal-gas equation of state**  
+2. **First law (specific form)**  
+
+**Narrative Outline:**  
+Dr. Elena Marquez, a brash atmospheric dynamicist, clashes with Dr. Liam Carter, a methodical climate modeler, aboard a NOAA research aircraft. They’re chasing a tropical disturbance near Cape Verde. Elena insists on real-time dropsonde data, mocking Liam’s reliance on coarse global models.  
+
+- **Ideal-gas law**: Elena uses the equation \( p = \rho R_d T \) to calculate air density from dropsonde readings, arguing that the storm’s low-pressure core is heating anomalously. Liam dismisses her “backward thermodynamics,” insisting his machine-learning model already predicted the heat flux.  
+- **First law**: During a tense mid-flight analysis, Liam notes discrepancies in the storm’s energy budget. Elena retorts, “Your model ignores \( dq = c_v dT + p d\alpha \)—actual physics! You can’t hand-wave latent heat!” Their argument mirrors their personal friction: she’s all instinct, he’s all algorithms.  
+
+**Climax:** The disturbance rapidly organizes into Tropical Storm Helene. Elena’s raw data shows a spike in ocean heat content; Liam’s model misses it, forcing them to collaborate.  
+
+**Teaser:** As Helene eyes the Caribbean, Liam discovers a flaw in his code’s treatment of **potential temperature**—a variable Elena considers gospel.  
+
+---
+
+### **Part 2/5: "The Eye of the Storm"**  
+**Concepts Taught:**  
+1. **Potential temperature (\( \theta \))**  
+2. **Dry-adiabatic lapse rate (\( \Gamma_d \))**  
+
+**Narrative Outline:**  
+Ground teams deploy weather balloons in Puerto Rico as Helene strengthens. Elena and Liam bunker in a coastal lab, their rivalry thawing as they share stories of past forecasting failures.  
+
+- **Potential temperature**: Elena sketches \( \theta = T \left( \frac{p_0}{p} \right)^{R_d/c_p} \) on a whiteboard, arguing it’s the true measure of air-parcel energy. Liam begrudgingly integrates \( \theta \) into his model, revealing hidden stability layers.  
+- **Dry-adiabatic lapse rate**: They track a balloon’s ascent. “See this \( \Gamma_d = 9.8^\circ C/km \) slope?” Elena says. “The environment’s lapse rate is steeper—this air’s a coiled spring.” Liam’s model now shows pockets where \( \Gamma_{\text{env}} > \Gamma_d \), hinting at explosive convection.  
+
+**Climax:** A midnight recon flight finds Helene’s pressure dropping. Their shared discovery—**conditional instability** lurking in the data—forces them to trust each other. A charged moment: Liam fixes Elena’s coffee, memorizing her cream ratio.  
+
+**Teaser:** Helene becomes a Category 3. But why is its core cooling? “Latent heat,” Elena murmurs. “Your model’s **moist adiabat** is wrong.”  
+
+---
+
+### **Part 3/5: "The Calibration"**  
+**Concepts Taught:**  
+1. **Moist-adiabatic lapse rate (\( \Gamma_m \))**  
+2. **Conditional instability**  
+
+**Narrative Outline:**  
+Evacuations begin as Helene approaches Florida. Elena and Liam work 36-hour shifts, their rapport deepening. She teaches him to *feel* the storm: “\( \Gamma_m \) isn’t some constant—it’s a dance between condensation and cooling.”  
+
+- **Moist-adiabatic lapse rate**: Flashback to Elena’s grad-school trauma—a failed forecast during Hurricane Maria. She explains, “Latent heat from rain reduces \( \Gamma_m \) to 5°C/km. Your model assumes 7°C/km. That’s why it undersells Helene’s updrafts.”  
+- **Conditional instability**: Liam reprograms the model with a layer-by-layer \( \Gamma_{\text{env}} \) analysis. They find a critical zone where \( \Gamma_m < \Gamma_{\text{env}} < \Gamma_d \): the sweet spot for **conditional instability**. “It’s a time bomb,” he whispers.  
+
+**Climax:** The revised model predicts rapid intensification to Category 5. They share a frantic kiss amid server-cooling fans, then alert FEMA.  
+
+**Teaser:** Helene’s eyewall hits 180 mph. “This isn’t natural,” Liam says. “Ocean temps are 3°C above Clausius-Clapeyron’s curve.”  
+
+---
+
+### **Part 4/5: "The Anomaly"**  
+**Concepts Taught:**  
+1. **Clausius-Clapeyron relation**  
+2. **Joule’s law**  
+
+**Narrative Outline:**  
+Helene stalls offshore, sucking energy from a freakishly warm Gulf Stream. Elena’s father, a Cuban fisherman, radios: “The sea’s boiling!”  
+
+- **Clausius-Clapeyron**: Liam graphs \( \frac{d \ln p_s}{dT} = \frac{L_v}{R_v T^2} \), showing that for every 1°C warming, moisture content rises 7%. “Helene’s ingesting vapor that shouldn’t exist,” he says. Elena adds, “Climate change bent the curve.”  
+- **Joule’s law**: A power outage hits the lab. Elena jury-rigs a battery using thermoelectric cells. “Internal energy depends only on temp, right? Joule’s law says we can salvage this.” Their hands brush over wires.  
+
+**Climax:** They prove Helene’s heat engine is 30% more efficient than any recorded storm. The President calls for a live briefing.  
+
+**Teaser:** “It’s a **Carnot cycle**,” Liam realizes. “And we’re the cold reservoir.”  
+
+---
+
+### **Part 5/5: "The Landing"**  
+**Concepts Taught:**  
+1. **Carnot-cycle efficiency**  
+
+**Narrative Outline:**  
+Helene makes landfall. Elena and Liam broadcast from a storm-chaser truck, their models syncing perfectly.  
+
+- **Carnot-cycle efficiency**: Liam explains on live TV: “A hurricane’s maximum winds depend on \( \eta = 1 - T_c/T_h \), where \( T_h \) is ocean temp and \( T_c \) the tropopause. We’re at \( \eta = 38\% \)… unheard of.” Elena adds, “This isn’t a storm—it’s a singularity.”  
+
+**Climax:** Their combined model predicts the exact hour Helene’s eye collapses. Millions evacuate in time. In the aftermath, they slow-dance in an empty lab to radio static, the equations on the whiteboard their witness.  
+
+**Epilogue:** They co-author a paper blending AI with first-principles thermodynamics. The closing line: “The atmosphere is neither a machine nor a mystery—it’s a dialogue.”  
+
+---
+
+### **Intermission: Concepts & Real-World Echoes**  
+1. **Ideal-gas law**: Underpins pressure-temperature diagnostics in storm cores.  
+2. **First law**: Explains energy missteps in early hurricane models.  
+3. **Potential temperature**: Used to track air-parcel origins in forensic storm analysis.  
+4. **Dry/moist lapse rates**: Key to predicting thunderstorm genesis in sheared environments.  
+5. **Conditional instability**: Why “ordinary” storms suddenly go supercell.  
+6. **Clausius-Clapeyron**: Climate change’s multiplier effect on rainfall extremes.  
+7. **Joule’s law**: Guides energy budgeting in field instruments.  
+8. **Carnot efficiency**: Framework for estimating peak wind speeds in warming oceans.  
+
+**Why It Matters:** Hurricanes are thermodynamic poems—their violence dictated by the dance of energy, rotation, and moisture. Elena and Liam’s journey mirrors science’s own: a marriage of empiricism and theory, where love, like fluid dynamics, defies perfect prediction.

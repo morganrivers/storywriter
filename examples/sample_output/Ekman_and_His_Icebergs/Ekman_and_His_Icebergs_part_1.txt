@@ -1,0 +1,133 @@
+**"Ekman and His Icebergs - Part 1: The Drift That Defied Wind"**  
+*(Featuring: Surface Ekman Layer, Iceberg Drift Rule [teased])*  
+
+---
+
+**September 1902  
+Latitude 78°N, Aboard the *Fram***  
+
+The Arctic wind screamed through the rigging of the *Fram*, its iron-reinforced timbers groaning as the pack ice tightened its embrace. Twenty-three-year-old Vagn Walfrid Ekman gripped the starboard rail, his notebook flapping wildly in the gale. Before him stretched a jagged plain of ice—a graveyard of bergs calved from Greenland’s glaciers, each drifting southeast at an angle that defied all logic.  
+
+*Twenty degrees. Always twenty degrees to the right.*  
+
+Ekman scribbled the number again, his ink freezing mid-stroke. For three weeks, he’d tracked bergs using Nansen’s theodolite, correlating their paths with hourly wind logs. The results gnawed at him: the ice moved not with the wind, but askew, like a sleigh pulled by invisible hounds.  
+
+“Still chasing ghosts, Herr Doktor?”  
+
+Ekman turned to see Otto Sverdrup, the *Fram*’s grizzled captain, holding out a steaming mug. The expedition’s second-in-command had little patience for theorists.  
+
+“They’re not ghosts,” Ekman said, nodding at a tabular berg half a mile off. “That one’s moving twenty-three degrees starboard of the wind vector. There’s a *system* here.”  
+
+Sverdrup snorted. “System? The Arctic laughs at systems. Last week, a berg twice this ship’s size reversed course in dead calm. No wind, no current—just malice.”  
+
+“Malice doesn’t conserve angular momentum.” Ekman pointed to his notebook, where he’d sketched velocity vectors. “Friction between wind and ice creates a surface current. But the Coriolis force deflects it—”  
+
+“Save it for Nansen.” Sverdrup stomped toward the helm. “He’s the fool who brought a mathematician to an ice fight.”  
+
+Ekman watched the captain vanish into the wheelhouse. Across the deck, expedition leader Fridtjof Nansen stood bare-handed at the bow, his legendary endurance ignoring the -30°C chill. The great explorer had designed the *Fram* with a rounded hull to rise under ice pressure, but even he couldn’t bend the laws of fluid dynamics.  
+
+*Why bring me here if they won’t listen?*  
+
+The answer lay in Nansen’s 1893 *Fram* expedition, where he’d locked the ship in Arctic ice for three years, drifting with the pack to prove transpolar currents. But the ice hadn’t drifted as predicted—it lagged the wind, angling right like these bergs. Now, a decade later, Nansen sought closure.  
+
+“Ekman!” Nansen’s voice cut through the wind. “To my cabin—we’re missing a variable.”  
+
+---
+
+**Later, in Nansen’s Cabin**  
+
+Nansen spread a yellowed map across his desk, its edges frayed from a hundred port inspections. Red ink marked the *Fram*’s 1893 drift: a lazy spiral across the Beaufort Gyre.  
+
+“You’ve read my papers,” Nansen said, tracing the route. “The ice moved at 1/30th wind speed, twenty to forty degrees right. We blamed under-ice currents, but…” He tapped a cluster of berg icons west of Svalbard. “Your data shows bergs do the same, yet they’re free-floating. No keel to catch subsurface flows.”  
+
+Ekman leaned closer. “Unless the current isn’t just subsurface—it’s *everywhere*. A boundary layer where wind stress couples with…”  
+
+“With what? Fairy dust?”  
+
+“Viscosity.”  
+
+Nansen raised an eyebrow.  
+
+Ekman grabbed a pencil. “Imagine the ocean’s surface as a deck of cards. Wind drags the top card northeast; the Coriolis force deflects it right. That top card then drags the next layer, but with a delay—like gears meshing at an angle.” He sketched arrows spiraling clockwise with depth. “Each layer transfers momentum to the one below, deflecting further right until friction balances Coriolis.”  
+
+Nansen frowned. “So the current isn’t a single vector—it’s a… helix?”  
+
+“A spiral. Mathematically, if we model the vertical velocity profile as a balance between wind stress, Coriolis, and viscous drag…” Ekman flipped the map and scrawled equations on its back:  
+
+$$ \nu \frac{\partial^2 u}{\partial z^2} = -f \times v $$  
+$$ \nu \frac{\partial^2 v}{\partial z^2} = f \times u $$  
+
+“Where \( \nu \) is eddy viscosity, \( f \) the Coriolis parameter, and \( u, v \) the east/north velocity components. The solution forms a decaying exponential spiral with depth.”  
+
+Nansen studied the equations, then suddenly laughed. “You’re describing a *screw*! The ocean’s surface is a screw thread, twisting momentum into the abyss!”  
+
+“Exactly! And the depth where this spiral stops—”  
+
+“—is where viscosity surrenders to rotation. How deep?”  
+
+Ekman hesitated. “That depends on \( \nu \), which we’ve never measured. But if I could deploy drogues at multiple depths during a storm—”  
+
+A cannon-like *crack* shook the ship. Both men stumbled as the *Fram* listed sharply to port.  
+
+“Pressure ridge!” came Sverdrup’s shout from above. “All hands, prepare to breach!”  
+
+---
+
+**The Storm**  
+
+By midnight, the Arctic night had swallowed the sun. The *Fram* groaned as ice squeezed her hull, the pack driven by a katabatic wind screaming off Greenland’s ice sheet. Ekman clung to the mainmast, struggling to lower a weighted drogue—a canvas sea anchor—through a hastily drilled hole.  
+
+“You’ll die for numbers!” Sverdrup yelled over the gale, securing a safety line around Ekman’s waist.  
+
+“Numbers saved *you* from Russian torpedoes!” Ekman shot back, unwinding the drogue’s line. The device carried depth-marked flags every 10 meters. “If I can track how its drift angle changes with depth—”  
+
+A berg the size of a cathedral calved nearby, sending a shockwave through the ice. The *Fram*’s hull screeched in protest.  
+
+“Twenty minutes!” Sverdrup warned. “Then we retreat below!”  
+
+Ekman released the drogue. The current snatched it eastward, flags vanishing into the black water. Through his pocket watch, he timed each flag’s passage past a reference berg:  
+
+- **Surface:** Drift angle 28° right of wind.  
+- **10m depth:** 35° right.  
+- **20m:** 43° right.  
+- **30m:** Current reversed, now *left* of wind.  
+
+“Impossible…” Ekman muttered.  
+
+Sverdrup checked the data. “Your screw’s unraveling, mathematician.”  
+
+“No—it’s *deepening*! The spiral isn’t just surface-deep; it’s a column!” Ekman’s mind raced. If each layer deflected the one below, the integrated transport—the net water movement—would be *perpendicular* to the wind. He grabbed Nansen’s arm. “We need to measure viscosity! The spiral’s e-folding depth \( \delta_E = \sqrt{2\nu/f} \)—if I can solve for \( \nu \)—”  
+
+Nansen stared at the reversing drogue flags. “You’ve done it. You’ve found the gear between air and sea.”  
+
+---
+
+**Dawn, September 15**  
+
+The storm had passed, leaving the *Fram* encased in fresh ice. In the chartroom, Ekman presented his findings:  
+
+“The surface layer—what I’m calling the *Ekman layer*—transfers wind momentum downward while deflecting it right. The total transport integrates the spiral into a net flow 90° from the wind.” He drew the critical equation:  
+
+$$ \mathbf{M}_E = \frac{\hat{k} \times \boldsymbol{\tau}_s}{\rho f} $$  
+
+“Where \( \mathbf{M}_E \) is the Ekman transport, \( \boldsymbol{\tau}_s \) wind stress, \( \rho \) density. This explains why bergs drift askew: they’re caught between direct wind drag and the deeper Ekman flow.”  
+
+Nansen nodded. “But your model predicts bergs should move *further* right than observed. What’s missing?”  
+
+Ekman hesitated. “I think… the bergs aren’t passive. Their submerged keels interact with deeper currents, perhaps a *second* spiral near the seabed. But without data—”  
+
+A shout interrupted them. On deck, lookouts pointed southeast. A massive berg, its base glowing green with subsurface ice, was drifting *west*—directly into the wind.  
+
+Sverdrup joined them, breath frosting. “Malice, Herr Doktor. Pure malice.”  
+
+Ekman gripped the rail. Somewhere beneath that berg, an unseen current pulled against the wind. A counter-spiral. A mirror.  
+
+“No,” he whispered. “Another gear.”  
+
+---
+
+**Concepts Taught:**  
+1. **Surface Ekman Layer:** Illustrated through drogues veering right with depth, showing spiral dynamics from wind-Coriolis-viscosity balance.  
+2. **Iceberg Drift Rule (Teased):** Bergs drift 20°–30° right of wind due to competing surface/bottom Ekman forces—a mystery to resolve in Part 4.  
+
+**Next Part Teaser:** In Oslo, Ekman builds a rotating tank to decode the spiral’s secrets—only to discover its mirror image lurking at the bottom...

@@ -1,0 +1,85 @@
+**The Great Underwater Wall – Part 3/5: Kelvin’s Reckoning**  
+*(Featuring: Kelvin Wave (Coastline), Equatorial Kelvin Wave, Rossby Wave Prerequisites)*  
+
+---
+
+The Azores Fracture Zone had become a cathedral of chaos. Commander Elara Voss gripped the sub’s thruster controls as a wall of water twice the height of Everest advanced—a **coastal Kelvin wave** channeled by the Great Wall’s curvature into a self-feeding monstrosity.  
+
+“It’s herding us,” Markus shouted over the groaning hull. On the sonar, the wave’s leading edge glowed crimson, its energy trapped against the continental slope by the Coriolis force. “The bathymetry’s acting like a waveguide. We’re in the throat of a goddamn laser.”  
+
+Elara banked hard, skirting the wave’s trough. “Kelvin waves decay exponentially offshore. But the wall’s reflectors are *focusing* it.” She pulled up the damage report. Three support columns had already buckled, their failure synchronized to the wave’s 17-minute period.  
+
+A proximity alarm blared. The shadow—the leviathan from Greenland—flashed across the rear cameras, its silhouette suggesting impossible biology: part siphonophore colony, part tectonic plate.  
+
+“Deploy the airfoils!” Elara ordered.  
+
+Markus slammed a fist on the launch console. Six winged drones shot from the sub, their shapes miming albatross wings. They locked into the wave’s crest, flexing to induce **vortex shedding**.  
+
+“Principle’s sound,” Markus muttered. “Break the coherence, disrupt the wave’s—”  
+
+The shadow struck.  
+
+A tendril of bioluminescent mucus snared a drone, yanking it into the depths. The remaining airfoils faltered; the Kelvin wave’s amplitude spiked.  
+
+“It’s learning,” Elara breathed.  
+
+---  
+
+Eight thousand kilometers southeast, Dr. Amani Okoye hovered above the Pacific’s **equatorial Kelvin wave**—a 200-meter bulge in the thermocline racing east at 2.8 m/s. Her submersible *Uhuru* trembled in its wake.  
+
+“The EUC’s collapsing,” her assistant warned. The Equatorial Undercurrent—the Pacific’s hidden river—was draining into the wave’s trough, its lifeblood of warm water diverted. “Indonesian fisheries report a 10°C SST drop. Monsoon models are imploding.”  
+
+Amani zoomed in on the wave’s structure. Unlike its coastal cousin, this Kelvin wave was symmetric about the equator, its currents spinning north and south like mirrored gears. “It’s a feedback loop. The Great Wall’s shadow cooled the Atlantic, steepening the Pacific’s east-west temperature gradient. This wave is Earth’s fever breaking.”  
+
+“Can we redirect it?”  
+
+Amani plotted Coriolis parameters across the basin. “Rossby waves need a **β-effect**—a gradient in planetary vorticity. If we seed cyclonic eddies here—” She highlighted a region north of the Solomon Islands. “—we can exploit the **Rossby wave prerequisites** to refract this Kelvin wave northward.”  
+
+“Into the Kuroshio?”  
+
+“Where its heat might stabilize Japan’s winters. A calculated mercy.”  
+
+The *Uhuru* launched buoyancy gliders, each carrying viral payloads to trigger artificial upwelling. As the eddies formed, Amani watched the Kelvin wave’s path bend—a slow-mutation ballet of rotating forces.  
+
+“Dr. Okoye!” The assistant pointed to a secondary wave emerging beneath them—an **equatorial Rossby wave**, westward-bound and twice as large. “The eddies are resonating!”  
+
+Amani’s fingers flew across the console. “The β-effect works both ways. We’ve woken the Pacific’s immune system.”  
+
+---  
+
+Back in the Azores, Elara fought for air as the sub’s oxygen recyclers failed. The shadow had them pinned against the Great Wall’s central pylon, its mucus nets smothering the thrusters.  
+
+“Give me manual override!” Markus jammed a hydrospanner into the control panel.  
+
+“Don’t!” Elara grabbed his wrist. “That’s a live circuit!”  
+
+Too late. The sub lurched as Markus hotwired the ballast tanks, blasting high-pressure jets into the shadow’s mass. The creature recoiled—and for an instant, its core was visible: a pulsating web of siphonophores arranged in a perfect **Taylor column**, their colonial bodies spinning in rigid unison.  
+
+“Taylor-Proudman…” Elara whispered. “They’ve structured themselves to obey the Theorem. No vertical shear—every zooid moves in lockstep.”  
+
+Markus rebooted the sonar. “It’s not just eating turbulence. It’s *becoming* turbulence.”  
+
+The shadow retreated, but the victory was pyrrhic. The Kelvin wave, now unfettered, slammed into the wall. Cameras captured hexagonal panels peeling away like scales, each failure propagating eastward at Mach 0.8.  
+
+“The Maelstrom’s forming,” Elara said, pulling up satellite imagery. The Rossby wave train from Ecuador had merged with a **baroclinic instability** over the Sargasso Sea, birthing a vortex 500 km wide. “It’s feeding on the wall’s debris field. We’re out of time.”  
+
+---  
+
+Amani’s gamble paid off—sort of. The equatorial Kelvin wave veered north, injecting warmth into the Kuroshio’s ailing veins. Tokyo’s frosts retreated; the monsoon found new equilibrium over Sulawesi. But as she surfaced near Mindanao, a drone swarm descended, their hulls marked with the African Union’s crimson falcon.  
+
+“Eco-terrorists,” her assistant spat.  
+
+Amani opened a comms channel. “This is Dr. Okoye of the UN Stabilization Force. You’re violating—”  
+
+“*You* violated the ocean!” a voice crackled. “The wall is genocide!”  
+
+The drones opened fire.  
+
+---  
+
+**Concepts Taught:**  
+1. **Kelvin Wave (Coastline):** Demonstrated through the amplified wave guided by continental slope and Coriolis forces, countered by vortex-shedding airfoils.  
+2. **Equatorial Kelvin Wave:** Depicted as a symmetric, eastward-moving thermocline bulge disrupting the Pacific’s heat engine, redirected via β-effect manipulation.  
+3. **Rossby Wave Prerequisites:** Illustrated by Amani’s eddy seeding to exploit planetary vorticity gradients, satisfying the β-effect necessary for Rossby wave generation.  
+
+**Next Part Teaser:** Trapped in the Maelstrom’s heart, Elara and Markus confront Reynolds-averaged chaos while Amani’s survival hinges on rogue wave mechanics—as the Great Wall’s fate hangs on a 48-hour countdown...

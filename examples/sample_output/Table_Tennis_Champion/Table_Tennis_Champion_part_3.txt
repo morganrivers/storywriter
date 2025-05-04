@@ -1,0 +1,84 @@
+**Intermission: The Fluid Dynamics of Fury**  
+*(Science Behind Parts 1 & 2)*  
+
+---
+
+### **1. Apparent (Fictitious) Forces: The Physics of Spin Sorcery**  
+**What They Are:**  
+In non-inertial reference frames—those accelerating or rotating—forces emerge that don’t exist in stationary systems. These *fictitious forces* include:  
+- **Coriolis Force:** Deflects moving objects perpendicular to their velocity in rotating frames (right in NH, left in SH).  
+- **Centrifugal Force:** Outward push felt in circular motion.  
+- **Euler Force:** Arises from *changes* in rotational speed (\(a_E = -\frac{d\boldsymbol{\Omega}}{dt} \times \boldsymbol{r}\)).  
+
+**In the Story:**  
+Kala weaponizes these concepts at the ping pong table:  
+- **Magnus Effect as Coriolis Proxy:** By spinning the ball, she creates a pressure gradient. The side rotating *toward* the airflow experiences higher pressure (slower relative speed), while the opposite side has lower pressure (faster flow). This pressure difference curves the ball’s trajectory—a Magnus-induced “fictitious” force.  
+- **Frame-Jumping:** Opponents like Li Wei intuit shots in Earth’s inertial frame. Kala forces them into *her* rotating frame, where the ball’s path bends unnaturally.  
+
+**Real-World Analogy:**  
+- A soccer player’s “banana kick” uses sidespin to curve the ball around defenders.  
+- Hurricanes rotate counterclockwise in the NH due to planetary-scale Coriolis forcing—a spin Kala miniaturizes with her paddle.  
+
+---
+
+### **2. Euler Force: The Acceleration Deception**  
+**What It Is:**  
+While Coriolis and centrifugal forces dominate in *steady* rotation, the **Euler force** appears when rotation rates change. Mathematically:  
+\[ \boldsymbol{a}_E = -\frac{d\boldsymbol{\Omega}}{dt} \times \boldsymbol{r} \]  
+This transient force acts perpendicular to both the rotation axis (\(\boldsymbol{\Omega}\)) and the position vector (\(\boldsymbol{r}\)).  
+
+**In the Story:**  
+Kala’s whip-fast wrist snaps exploit Euler dynamics:  
+1. **Canceling Spin:** To negate Li Wei’s sidespin, she rapidly *decelerates* her paddle’s rotation mid-strike. The resulting Euler torque (\(a_E\)) counteracts the ball’s angular momentum.  
+2. **Spin Reversals:** By jerking her paddle from clockwise to counterclockwise rotation, she induces Euler forces that destabilize the ball’s boundary layer.  
+
+**Real-World Analogy:**  
+- A figure skater’s stumble when abruptly stopping a spin—their inner ear detects the Euler force from sudden Ω change.  
+- Robotic arms in factories require Euler force compensation to avoid overshooting during rapid rotational acceleration.  
+
+---
+
+### **3. Taylor Columns: Taming Tornadoes**  
+**What They Are:**  
+In rapidly rotating fluids (low Rossby number), obstacles generate vertical columns of fluid motion locked to the system’s rotation. These **Taylor columns** force flow over obstacles rather than around them, governed by:  
+\[ \frac{f + \zeta}{H} = \text{constant} \]  
+where \(f\) = planetary vorticity, \(\zeta\) = relative vorticity, and \(H\) = fluid depth.  
+
+**In the Story:**  
+- **Ivan’s Spin Vortices:** The Russian phenom’s sidespin serves create miniature Taylor columns—stable vertical vortices that guide the ball along predictable curves.  
+- **Kala’s Counter:** By tilting her paddle, she reduces the effective “depth” (\(H\)) the vortex occupies. To conserve potential vorticity (\( (f + \zeta)/H \)), the system must increase \(\zeta\). But Ivan’s spin already maxes out \(\zeta\), causing the vortex to collapse.  
+
+**Real-World Analogy:**  
+- Jupiter’s Great Red Spot—a persistent anticyclonic Taylor column surviving for centuries in the gas giant’s turbulent atmosphere.  
+- Ocean currents bending around seamounts, forming Taylor columns that trap nutrients.  
+
+---
+
+### **4. Kelvin-Helmholtz Instability: Shear Madness**  
+**What It Is:**  
+When two fluid layers slide past each other with differing velocities, **Kelvin-Helmholtz (KH) instability** occurs if the kinetic energy of shear overcomes stabilizing buoyancy. The critical condition is:  
+\[ \Delta U > \sqrt{\frac{g(\rho_2 - \rho_1)}{\rho_0} \cdot \frac{h_1 h_2}{h_1 + h_2}} } \]  
+where \(\Delta U\) = velocity difference, \(g\) = gravity, \(\rho\) = densities, and \(h\) = layer depths.  
+
+**In the Story:**  
+- **Ivan’s Turbulent Serves:** His hybrid spins create stratified airflow—fast-moving spin-induced flow over slower ambient air.  
+- **Kala’s Shear Sabotage:** By slicing her paddle edge-first at 88°, she maximizes \(\Delta U\) between her strike (40 m/s) and Ivan’s spin layer (25 m/s). This breaches the KH threshold, shredding his vortex into chaos.  
+
+**Real-World Analogy:**  
+- Cloud streets forming parallel to wind shear directions, their wavy patterns revealing KH billows.  
+- Clear-air turbulence jolting airplanes when jet stream shear layers destabilize.  
+
+---
+
+### **Why This Matters**  
+Kala’s genius lies in scaling planetary physics to tabletop combat:  
+1. **Frame Warfare:** She turns the ping pong table into a non-inertial battleground, forcing opponents to fight her Coriolis-Euler hybrid rules.  
+2. **Vortex Assassination:** By manipulating Taylor columns and KH thresholds, she weaponizes turbulence—nature’s most chaotic state—with surgical precision.  
+
+But fluid dynamics has limits. As Parts 3-5 will reveal, Kala’s obsession with equations blinds her to the human variables: jealousy, betrayal, and the unstable stratification of pride.  
+
+---
+
+**Next: Part 3 - "The Stratification Gambit"**  
+*Concepts: Base State & Taylor-Goldstein Equation, Richardson Number Criterion*  
+*Kala weaponizes humid air’s density layers—and learns that opponents aren’t the only ones who can choke.*

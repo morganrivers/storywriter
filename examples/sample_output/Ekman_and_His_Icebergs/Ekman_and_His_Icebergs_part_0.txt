@@ -1,0 +1,89 @@
+**"Ekman and His Icebergs" - Story Plan**  
+*Historical drama chronicling Vagn Walfrid Ekman’s discoveries, blending oceanography’s birth with polar exploration.*  
+
+---
+
+### **Part 1/5: "The Drift That Defied Wind"**  
+**Concepts:** *Surface Ekman layer (introduced), Iceberg drift rule (teased)*  
+**Year:** 1902  
+**Setting:** North Atlantic aboard the *Fram*, Fridtjof Nansen’s Arctic expedition vessel.  
+
+**Plot:**  
+Young Ekman, a doctoral student, joins Nansen to investigate why icebergs drift 20°–30° *right* of wind direction—a puzzle undermining navigation. Nansen recounts his observation that pack ice moved slower than wind, suspecting subsurface currents. Ekman studies wind logs and iceberg tracks, noting discrepancies. A storm hits; Ekman measures surface currents with drogues, discovering they spiral with depth. He sketches velocity vectors, intuiting a balance between wind drag, Coriolis, and viscosity.  
+
+**Key Scene:**  
+Ekman confronts dismissive crewmates: “The wind doesn’t *push* the ice—it *twists* it. Like a gear between air and sea.” He derives the Surface Ekman spiral equation \( u+iv = \frac{\tau_{s}}{\rho \sqrt{2\nu f}}\,e^{(1+i)z/\delta_E} \), predicting 45° turning per layer. Nansen funds his lab work.  
+
+**Teaser:** “But how deep does the spiral reach? And why do bergs *still* defy his math?”  
+
+---
+
+### **Part 2/5: "The Spiral’s Secret"**  
+**Concepts:** *Surface Ekman layer (deepened), Bottom Ekman layer*  
+**Year:** 1905  
+**Setting:** Ekman’s lab in Oslo, cluttered with rotating tanks and wax models.  
+
+**Plot:**  
+Ekman simulates ocean layers using a rotating table, dyed water, and towed plates. He replicates surface spirals but notices near-bottom flows veer *left*—a mirror image. His equations reveal the **Bottom Ekman layer**: friction with the seabed creates counter-spiraling currents, completing the vertical cycle. He publishes *On the Influence of the Earth’s Rotation on Ocean Currents*, deriving the Ekman transport \( M_E = \frac{\hat{k}\times\boldsymbol{\tau}_s}{\rho f} \). Critics dismiss it as “rotating bathtub fantasy.”  
+
+**Key Scene:**  
+Ekman receives a letter from Arctic fishermen: “Your spirals saved us—we followed the 45° rule to escape a squall!” Yet icebergs still misbehave. His wife, Ida, notices bergs tilt, altering drag: “What if they’re *pulled* by deeper flows?”  
+
+**Teaser:** “But the spiral alone can’t explain the icebergs. What force connects surface and abyss?”  
+
+---
+
+### **Part 3/5: "The Ocean’s Hidden Pump"**  
+**Concepts:** *Ekman transport, Ekman pumping/suction*  
+**Year:** 1908  
+**Setting:** Norwegian Sea aboard the steamer *Vøringen*, mapping cod migration.  
+
+**Plot:**  
+Ekman joins a survey tracking nutrient-rich upwelling zones. He correlates cyclonic wind patterns (curl \( \nabla \times \tau_s \)) with plankton blooms, realizing **Ekman pumping** \( w_E = \frac{1}{\rho f}\,\hat{k}\!\cdot\!\nabla\times\boldsymbol{\tau}_s \) drives vertical flows. A storm’s negative curl causes downwelling, stalling the ship. Crew members lower a current meter, revealing convergence zones where surface waters sink—the missing link between wind and deep currents.  
+
+**Key Scene:**  
+Ekman lectures sailors: “Wind doesn’t just *move* water—it *piles* it. Like squeezing a sponge, the sea breathes vertically.” He connects pumping to iceberg trajectories: subsurface currents tug bergs off-course.  
+
+**Teaser:** “Yet bergs drift slower than pumping predicts. What drags them back?”  
+
+---
+
+### **Part 4/5: "The Berg’s Equation"**  
+**Concepts:** *Iceberg drift rule (solved), Bottom Ekman layer (revisited)*  
+**Year:** 1910  
+**Setting:** Greenland’s Disko Bay, field camp amid calving glaciers.  
+
+**Plot:**  
+Ekman camps near Jakobshavn Glacier, measuring iceberg motion with theodolites and anemometers. He discovers bergs drift at ~2% of wind speed, angled 25° right—a vector sum of wind drag (surface layer) and geostrophic flow (bottom layer). Submerged keels interact with the **Bottom Ekman layer**, creating pressure gradients that resist wind. He derives the **Iceberg drift rule**: \( \theta = \arctan\left(\frac{\tau_{\text{wind}}}{\tau_{\text{ocean}}}\right) \), validated by 200 berg tracks.  
+
+**Key Scene:**  
+A rogue berg rams the camp, narrowly missing Ekman’s tent. He salvages data, muttering, “Even chaos follows vectors.”  
+
+**Teaser:** “But can Ekman’s laws tame the Atlantic’s fury? A final challenge awaits…”  
+
+---
+
+### **Part 5/5: "The Legacy in the Swirl"**  
+**Concepts:** *All concepts reviewed (Surface/Bottom layers, Transport, Pumping, Iceberg rule)*  
+**Year:** 1930  
+**Setting:** International Oceanographic Congress in Lisbon.  
+
+**Plot:**  
+Aging Ekman receives the Vega Medal. In his keynote, he synthesizes 30 years: Surface spirals drive transport, pumping fuels ecosystems, and bergs obey his rule. A young Walter Munk questions: “What of the abyssal storms?” Ekman smiles: “My layers are gears in a greater machine—the ocean’s clockwork.” Flashbacks show WWI U-boats using Ekman layers to hide, and farmers predicting upwelling from wind maps.  
+
+**Key Scene:**  
+Ekman gifts Munk his compass: “The sea is a vector field, not a mystery. Measure the angles, and the truth spirals into view.”  
+
+**Closing:**  
+Ekman walks Lisbon’s docks, watching fishing boats. A child asks why foam trails bend. He kneels: “The wind writes equations on the water. Let me show you…”  
+
+---
+
+### **Concept Integration Map**  
+- **Pt 1:** Surface Ekman layer (foundation), Iceberg drift (teased)  
+- **Pt 2:** Surface/Bottom layers (mirrored dynamics)  
+- **Pt 3:** Ekman transport/pumping (vertical coupling)  
+- **Pt 4:** Iceberg rule (synthesis of layers), Bottom layer’s role  
+- **Pt 5:** All concepts unified, societal impact  
+
+**Tone:** Blend of *The Martian*’s problem-solving grit and *Hidden Figures*’ historical reverence, avoiding technobabble. Each physical law emerges from visceral struggle—frostbite, near-shipwrecks, and eureka moments at dawn.
