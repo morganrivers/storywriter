@@ -17,7 +17,7 @@
 
 ## About StoryWriter
 
-Science fiction story generation system that takes flashcards or other educational material and uses them to generate interesting short stories that teach you the concepts.
+Science fiction story generation system that takes flashcards or other educational material and uses them to generate engaging short stories that teach you the concepts.
 
 ## Repository Structure
 
