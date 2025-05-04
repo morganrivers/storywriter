@@ -16,7 +16,6 @@
 *What began as an experiment in educational neuroscience became humanity's most ambitious archive - embedding crucial scientific knowledge within narratives that could survive the coming dark age. Every story a time capsule. Every equation a lifeline to a future that might once again embrace understanding.*
 
 *This repository contains the artifact of that effort - the StoryWriter system.*
-![StoryWriter](banner.png)
 
 ## About StoryWriter
 
@@ -82,9 +81,36 @@ The system uses the DeepSeek API to generate creative science fiction narratives
 
 Each story teaches scientific concepts through narrative, creating an intuitive understanding of complex fluid dynamics principles.
 
-## License
+![StoryWriter](banner.png)
 
-Commons Clause License
+# Copyright
+
+Copyright (c) Morgan Rivers 2025
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, subject to the following condition:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+Commons Clause License Condition v1.0
+
+The Software is provided under the MIT License as above, with the following
+modification:
+
+The license does not grant you the right to Sell the Software or any
+component thereof.
+
+For purposes of the foregoing, “Sell” means practicing any or all of the rights
+granted to you under the License to provide to third parties, for a fee or
+other consideration (including without limitation fees for hosting or support
+services related to the Software), a product or service whose value derives,
+entirely or substantially, from the functionality of the Software.
+
+Any licensee wishing to sell the Software must contact the licensor to obtain
+a separate commercial license.
 
 ---
 
