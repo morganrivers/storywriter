@@ -84,7 +84,7 @@ Each story teaches scientific concepts through narrative, creating an intuitive 
 
 ## License
 
-MIT License
+Commons Clause License
 
 ---
 
