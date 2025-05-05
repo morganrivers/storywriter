@@ -17,9 +17,7 @@
 
 ## About StoryWriter
 
-StoryWriter is a science fiction story generation system that weaves complex scientific concepts into engaging narratives. Using fluid dynamics and oceanography concepts as source material, it creates stories that are both entertaining and educational.
-
-The system takes scientific flashcards as input and generates multi-part narratives that explain these concepts within the context of an adventure, mystery, or exploration tale.
+Science fiction story generation system that takes flashcards or other educational material and uses them to generate engaging short stories that teach you the concepts.
 
 ## Repository Structure
 
