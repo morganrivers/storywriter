@@ -4,6 +4,12 @@ import time
 import requests
 from pathlib import Path
 import yaml
+import markdown
+import pypandoc
+
+#import markdown
+from weasyprint import HTML
+
 def get_file_variables(yaml_file):
     with open(yaml_file, "r") as file:
         data = yaml.load(file, Loader=yaml.FullLoader)
@@ -75,6 +81,7 @@ def safe_slug(text: str) -> str:
     """Generate a filesystem-safe slug from a string."""
     return "".join(c if c.isalnum() else "_" for c in text).strip("_")[:50]
 
+
 # ------------------------------------------------------------------
 # STORY GENERATION
 # ------------------------------------------------------------------
@@ -119,15 +126,36 @@ def build_story( title: str, flashcards: str, description: str, example_story: s
             f" DO NOT mention bioluminescence in the story.\n"
             f" DO NOT have some surprise moment in"
             f" the story where something is revealed to be sentient.\n"
+            f" DO NOT have fingers \"dance\", especially across keyboards.\n"
         )
 
         print(f"▶️ Generating '{title}' — part {part}...")
         print("")
         print("prompt")
-        pprint.pprint(prompt)
+        # pprint.pprint(prompt)
         print("")
-        output = call_deepseek(prompt)
-        # output = "[PLACEHOLDER]"
+        # output = call_deepseek(prompt)
+        output = """
+
+        The *Wandering Origin* pitched violently as Kvothe braced himself against the chart table, his chalk skating across the slate in jagged arcs. Outside the porthole, the equatorial Pacific stretched endless and indigo, its surface scarred by rogue waves that crested like the spines of submerged leviathans. The ship’s captain, a grizzled woman named Tessa, had called these waters "the ocean’s tuning fork"—a place where tides sang in frequencies too low for human ears. Now, as the vessel’s alchemical engine hummed in dissonant harmony with the swells, Kvothe understood why.  
+
+        “Another anomaly at 120 fathoms,” called Lira, the junior hydrographer, her fingers dancing over a brass-rimmed sonograph. The machine’s quartz stylus etched jagged peaks onto rotating parchment—a seismogram of the deep. “Wave troughs are compressing. It’s like the thermocline’s breathing.”  
+
+        Kvothe squinted at the data. For three days, they’d tracked shallow-water waves propagating westward at speeds that defied the linearized equations. According to theory, their phase velocity should have been \( c_p = \sqrt{gH} \), where \( H \) was the average depth. But these waves raced ahead of their own group velocity, leaving dispersive tails that shimmered with unnatural phosphorescence.  
+
+        “It’s nonlinearity,” he muttered, seizing the chalk. On the slate, he scrawled the shallow-water momentum equations:  
+
+        \\[
+        \\frac{\\partial u}{\\partial t} + u \\frac{\\partial u}{\\partial x} + v \\frac{\\partial u}{\\partial y} - fv = -g \\frac{\\partial \\eta}{\\partial x}  
+        \\]  
+        \\[
+        \\frac{\\partial v}{\\partial t} + u \\frac{\\partial v}{\\partial x} + v \\frac{\\partial v}{\\partial y} + fu = -g \\frac{\\partial \\eta}{\\partial y}  
+        \\]  
+
+        “You’re neglecting the Coriolis term,” said Dr. Vellen, the expedition’s lead oceanographer, peering over his shoulder. Her voice carried the clipped precision of someone who’d written textbooks on rotational hydrodynamics. “At the equator, \\( f = 2\\Omega \\sin \\phi \\) vanishes. We’re in an f-plane singularity.”  
+
+        “But the waves aren’t,” Kvothe countered. He circled the nonlinear advection terms \\( u \\frac{\\partial u}{\\partial x} \\) and \\( v \\frac{\\partial v}{\\partial y} \\). “They’re self-accelerating. Like a current that fuels its own momentum.”  
+        """
 
         # Save this part
         part_file = story_dir / f"{slug}_part_{i}.txt"
@@ -139,7 +167,7 @@ def build_story( title: str, flashcards: str, description: str, example_story: s
     full_text = "\n\n".join(
         (story_dir / f"{slug}_part_{i}.txt").read_text(encoding="utf-8")
         for i in range(1, len(parts))
-    )
+    ).replace("*","") # deepseek loves asterisks so much. Getting rid of them.
     (story_dir / f"{slug}_full_story.txt").write_text(full_text, encoding="utf-8")
     print(f"✅ Completed story '{title}'. Files are in {story_dir}/")
 
@@ -158,11 +186,9 @@ def main():
         flashcards  = ", ".join(story['keywords'])
         # description may come in as a list of strings
         if isinstance(story['description'], list):
-            print("issue wiht description...")
+            print("issue with description...")
             quit()
         else:
-            # print("len(description)")
-            # print(len(description))
             description = story['description']
 
         build_story(
